@@ -13,5 +13,9 @@ export const appRoutes: Routes = [
     {
       path: 'wheel',
       loadChildren: 'app/wheel/wheel.module#WheelModule'
+    },
+    {
+      path: 'chart',
+      loadChildren: 'app/chart/chart.module#ChartModule'
     }
 ];
