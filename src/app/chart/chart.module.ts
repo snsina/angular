@@ -4,6 +4,7 @@ import { ChartComponent } from './chart.component';
 import { ChartRoutingModule } from './chart-routing.module';
 import { GoldDirective } from './gold.directive';
 import { BarchartDirective } from './barchart.directive';
+import { ChartSampleComponent } from './chart-sample.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { BarchartDirective } from './barchart.directive';
   declarations: [
     ChartComponent,
     GoldDirective,
-    BarchartDirective
+    BarchartDirective,
+    ChartSampleComponent
   ]
 })
 export class ChartModule { }
